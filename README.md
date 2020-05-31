@@ -8,6 +8,8 @@ Simple implementation (2 files) of classic Popover well known from iOS Apps. Fro
 [![License](https://img.shields.io/cocoapods/l/SwiftyPopover.svg?style=flat)](https://cocoapods.org/pods/SwiftyPopover)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyPopover.svg?style=flat)](https://cocoapods.org/pods/SwiftyPopover)
 
+![](/ScreenShots/SwiftyPopover.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
