@@ -4,11 +4,12 @@ Pure Swift implementation of Popover without limitations of UIPopoverController 
 
 Simple implementation (2 files) of classic Popover well known from iOS Apps. From time to time we need display some short info connected to view on screen or as context menu. Standard implementation based on `UIPopoverPresentationController` is hard to customize and Swifty Popover was created as answer to that issue.
 
+![Swift 5.0](https://img.shields.io/badge/swift-5.0-orange.svg)
 [![Version](https://img.shields.io/cocoapods/v/SwiftyPopover.svg?style=flat)](https://cocoapods.org/pods/SwiftyPopover)
 [![License](https://img.shields.io/cocoapods/l/SwiftyPopover.svg?style=flat)](https://cocoapods.org/pods/SwiftyPopover)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyPopover.svg?style=flat)](https://cocoapods.org/pods/SwiftyPopover)
 
-![](/ScreenShots/SwiftyPopover.gif)
+![](https://github.com/LukasHakulin/SwiftyPopover/blob/master/ScreenShots/SwiftyPopover.gif)
 
 ## Example
 
@@ -33,7 +34,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-SwiftyPopover is available through [CocoaPods](https://cocoapods.org). To install
+SwiftyPopover is available through [CocoaPods](https://cocoapods.org/pods/SwiftyPopover). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
