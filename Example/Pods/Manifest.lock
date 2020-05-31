@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyPopover (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyPopover (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyPopover:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftyPopover: 4d309653d2ee9bd7705fca23793cfa7e0670e4f7
+
+PODFILE CHECKSUM: 92aefb7d8d49c469cb27b78cc68178a9d3c17139
+
+COCOAPODS: 1.8.4

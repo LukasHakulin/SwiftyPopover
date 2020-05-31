@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'SwiftyPopover_Example' do
+  pod 'SwiftyPopover', :path => '../'
+
+  target 'SwiftyPopover_Tests' do
+    inherit! :search_paths
+  end
+end
