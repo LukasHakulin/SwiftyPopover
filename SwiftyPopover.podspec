@@ -18,9 +18,10 @@ Simple implementation (2 files) of classic Popover well known from iOS Apps. Fro
   s.homepage         = 'https://github.com/LukasHakulin/SwiftyPopover'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Lukas Hakulin' => 'l.hakulin@gmail.com' }
-  s.source           = { :git => 'https://github.com/Lukas Hakulin/SwiftyPopover.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/LukasHakulin/SwiftyPopover.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
+  s.swift_version = '5.0'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 
   s.source_files = 'SwiftyPopover/Classes/**/*'
