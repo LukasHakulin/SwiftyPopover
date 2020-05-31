@@ -10,11 +10,30 @@
 		3BB0A534905D463E27A13DFE /* Pods_SwiftyPopover_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931458E20CC1A65DE24F0045 /* Pods_SwiftyPopover_Tests.framework */; };
 		3DACF5157EA54D5F6D5D521A /* Pods_SwiftyPopover_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19466CFEEEE6A5195E1E1EB /* Pods_SwiftyPopover_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
+		607FACD81AFB9204008FA782 /* DotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* DotsViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		D32E8BA52483D7F500FD89E3 /* DotsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E8BA32483D7F400FD89E3 /* DotsButton.swift */; };
+		D32E8BA62483D7F500FD89E3 /* PopoverExampleSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E8BA42483D7F500FD89E3 /* PopoverExampleSwitcher.swift */; };
+		D32E8BA82483D80200FD89E3 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E8BA72483D80200FD89E3 /* DashboardViewController.swift */; };
+		D32E8BBF2483D82C00FD89E3 /* ArrowPopoverContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E8BAA2483D82B00FD89E3 /* ArrowPopoverContainerViewController.swift */; };
+		D32E8BC02483D82C00FD89E3 /* Example5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E8BAB2483D82B00FD89E3 /* Example5ViewController.swift */; };
+		D32E8BC12483D82C00FD89E3 /* ArrowPopoverSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E8BAC2483D82B00FD89E3 /* ArrowPopoverSegue.swift */; };
+		D32E8BC22483D82C00FD89E3 /* Example5ViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E8BAD2483D82B00FD89E3 /* Example5ViewLayout.swift */; };
+		D32E8BC32483D82C00FD89E3 /* CustomizedPopoverContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E8BAF2483D82B00FD89E3 /* CustomizedPopoverContainerViewController.swift */; };
+		D32E8BC42483D82C00FD89E3 /* CustomizedPopoverSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E8BB02483D82B00FD89E3 /* CustomizedPopoverSegue.swift */; };
+		D32E8BC52483D82C00FD89E3 /* Example6ViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E8BB12483D82B00FD89E3 /* Example6ViewLayout.swift */; };
+		D32E8BC62483D82C00FD89E3 /* Example6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E8BB22483D82B00FD89E3 /* Example6ViewController.swift */; };
+		D32E8BC72483D82C00FD89E3 /* Example1ViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E8BB42483D82B00FD89E3 /* Example1ViewLayout.swift */; };
+		D32E8BC82483D82C00FD89E3 /* Example1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E8BB52483D82B00FD89E3 /* Example1ViewController.swift */; };
+		D32E8BC92483D82C00FD89E3 /* Example3ViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E8BB72483D82C00FD89E3 /* Example3ViewLayout.swift */; };
+		D32E8BCA2483D82C00FD89E3 /* Example3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E8BB82483D82C00FD89E3 /* Example3ViewController.swift */; };
+		D32E8BCB2483D82C00FD89E3 /* Example2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E8BBA2483D82C00FD89E3 /* Example2ViewController.swift */; };
+		D32E8BCC2483D82C00FD89E3 /* Example2ViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E8BBB2483D82C00FD89E3 /* Example2ViewLayout.swift */; };
+		D32E8BCD2483D82C00FD89E3 /* Example4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E8BBD2483D82C00FD89E3 /* Example4ViewController.swift */; };
+		D32E8BCE2483D82C00FD89E3 /* Example4ViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E8BBE2483D82C00FD89E3 /* Example4ViewLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +51,7 @@
 		607FACD01AFB9204008FA782 /* SwiftyPopover_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyPopover_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* DotsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotsViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -46,6 +65,25 @@
 		B19466CFEEEE6A5195E1E1EB /* Pods_SwiftyPopover_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyPopover_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB13909A919812F20ECEF58A /* Pods-SwiftyPopover_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyPopover_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftyPopover_Tests/Pods-SwiftyPopover_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CFEE2742EC796EDB18DE1CE0 /* SwiftyPopover.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftyPopover.podspec; path = ../SwiftyPopover.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D32E8BA32483D7F400FD89E3 /* DotsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotsButton.swift; sourceTree = "<group>"; };
+		D32E8BA42483D7F500FD89E3 /* PopoverExampleSwitcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverExampleSwitcher.swift; sourceTree = "<group>"; };
+		D32E8BA72483D80200FD89E3 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		D32E8BAA2483D82B00FD89E3 /* ArrowPopoverContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrowPopoverContainerViewController.swift; sourceTree = "<group>"; };
+		D32E8BAB2483D82B00FD89E3 /* Example5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example5ViewController.swift; sourceTree = "<group>"; };
+		D32E8BAC2483D82B00FD89E3 /* ArrowPopoverSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrowPopoverSegue.swift; sourceTree = "<group>"; };
+		D32E8BAD2483D82B00FD89E3 /* Example5ViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example5ViewLayout.swift; sourceTree = "<group>"; };
+		D32E8BAF2483D82B00FD89E3 /* CustomizedPopoverContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizedPopoverContainerViewController.swift; sourceTree = "<group>"; };
+		D32E8BB02483D82B00FD89E3 /* CustomizedPopoverSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizedPopoverSegue.swift; sourceTree = "<group>"; };
+		D32E8BB12483D82B00FD89E3 /* Example6ViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example6ViewLayout.swift; sourceTree = "<group>"; };
+		D32E8BB22483D82B00FD89E3 /* Example6ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example6ViewController.swift; sourceTree = "<group>"; };
+		D32E8BB42483D82B00FD89E3 /* Example1ViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example1ViewLayout.swift; sourceTree = "<group>"; };
+		D32E8BB52483D82B00FD89E3 /* Example1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example1ViewController.swift; sourceTree = "<group>"; };
+		D32E8BB72483D82C00FD89E3 /* Example3ViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example3ViewLayout.swift; sourceTree = "<group>"; };
+		D32E8BB82483D82C00FD89E3 /* Example3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example3ViewController.swift; sourceTree = "<group>"; };
+		D32E8BBA2483D82C00FD89E3 /* Example2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example2ViewController.swift; sourceTree = "<group>"; };
+		D32E8BBB2483D82C00FD89E3 /* Example2ViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example2ViewLayout.swift; sourceTree = "<group>"; };
+		D32E8BBD2483D82C00FD89E3 /* Example4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example4ViewController.swift; sourceTree = "<group>"; };
+		D32E8BBE2483D82C00FD89E3 /* Example4ViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example4ViewLayout.swift; sourceTree = "<group>"; };
 		E5857AF01E4FFCBB93307864 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,8 +151,17 @@
 		607FACD21AFB9204008FA782 /* Example for SwiftyPopover */ = {
 			isa = PBXGroup;
 			children = (
+				D32E8BB32483D82B00FD89E3 /* Example1 */,
+				D32E8BB92483D82C00FD89E3 /* Example2 */,
+				D32E8BB62483D82C00FD89E3 /* Example3 */,
+				D32E8BBC2483D82C00FD89E3 /* Example4 */,
+				D32E8BA92483D82B00FD89E3 /* Example5 */,
+				D32E8BAE2483D82B00FD89E3 /* Example6 */,
+				D32E8BA72483D80200FD89E3 /* DashboardViewController.swift */,
+				D32E8BA32483D7F400FD89E3 /* DotsButton.swift */,
+				D32E8BA42483D7F500FD89E3 /* PopoverExampleSwitcher.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				607FACD71AFB9204008FA782 /* DotsViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -157,6 +204,64 @@
 				E5857AF01E4FFCBB93307864 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		D32E8BA92483D82B00FD89E3 /* Example5 */ = {
+			isa = PBXGroup;
+			children = (
+				D32E8BAA2483D82B00FD89E3 /* ArrowPopoverContainerViewController.swift */,
+				D32E8BAB2483D82B00FD89E3 /* Example5ViewController.swift */,
+				D32E8BAC2483D82B00FD89E3 /* ArrowPopoverSegue.swift */,
+				D32E8BAD2483D82B00FD89E3 /* Example5ViewLayout.swift */,
+			);
+			path = Example5;
+			sourceTree = "<group>";
+		};
+		D32E8BAE2483D82B00FD89E3 /* Example6 */ = {
+			isa = PBXGroup;
+			children = (
+				D32E8BAF2483D82B00FD89E3 /* CustomizedPopoverContainerViewController.swift */,
+				D32E8BB02483D82B00FD89E3 /* CustomizedPopoverSegue.swift */,
+				D32E8BB12483D82B00FD89E3 /* Example6ViewLayout.swift */,
+				D32E8BB22483D82B00FD89E3 /* Example6ViewController.swift */,
+			);
+			path = Example6;
+			sourceTree = "<group>";
+		};
+		D32E8BB32483D82B00FD89E3 /* Example1 */ = {
+			isa = PBXGroup;
+			children = (
+				D32E8BB42483D82B00FD89E3 /* Example1ViewLayout.swift */,
+				D32E8BB52483D82B00FD89E3 /* Example1ViewController.swift */,
+			);
+			path = Example1;
+			sourceTree = "<group>";
+		};
+		D32E8BB62483D82C00FD89E3 /* Example3 */ = {
+			isa = PBXGroup;
+			children = (
+				D32E8BB72483D82C00FD89E3 /* Example3ViewLayout.swift */,
+				D32E8BB82483D82C00FD89E3 /* Example3ViewController.swift */,
+			);
+			path = Example3;
+			sourceTree = "<group>";
+		};
+		D32E8BB92483D82C00FD89E3 /* Example2 */ = {
+			isa = PBXGroup;
+			children = (
+				D32E8BBA2483D82C00FD89E3 /* Example2ViewController.swift */,
+				D32E8BBB2483D82C00FD89E3 /* Example2ViewLayout.swift */,
+			);
+			path = Example2;
+			sourceTree = "<group>";
+		};
+		D32E8BBC2483D82C00FD89E3 /* Example4 */ = {
+			isa = PBXGroup;
+			children = (
+				D32E8BBD2483D82C00FD89E3 /* Example4ViewController.swift */,
+				D32E8BBE2483D82C00FD89E3 /* Example4ViewLayout.swift */,
+			);
+			path = Example4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,8 +435,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				D32E8BBF2483D82C00FD89E3 /* ArrowPopoverContainerViewController.swift in Sources */,
+				D32E8BCC2483D82C00FD89E3 /* Example2ViewLayout.swift in Sources */,
+				D32E8BC12483D82C00FD89E3 /* ArrowPopoverSegue.swift in Sources */,
+				D32E8BC52483D82C00FD89E3 /* Example6ViewLayout.swift in Sources */,
+				D32E8BC02483D82C00FD89E3 /* Example5ViewController.swift in Sources */,
+				D32E8BC22483D82C00FD89E3 /* Example5ViewLayout.swift in Sources */,
+				607FACD81AFB9204008FA782 /* DotsViewController.swift in Sources */,
+				D32E8BA52483D7F500FD89E3 /* DotsButton.swift in Sources */,
+				D32E8BC72483D82C00FD89E3 /* Example1ViewLayout.swift in Sources */,
+				D32E8BCB2483D82C00FD89E3 /* Example2ViewController.swift in Sources */,
+				D32E8BA82483D80200FD89E3 /* DashboardViewController.swift in Sources */,
+				D32E8BC32483D82C00FD89E3 /* CustomizedPopoverContainerViewController.swift in Sources */,
+				D32E8BC62483D82C00FD89E3 /* Example6ViewController.swift in Sources */,
+				D32E8BC92483D82C00FD89E3 /* Example3ViewLayout.swift in Sources */,
+				D32E8BC82483D82C00FD89E3 /* Example1ViewController.swift in Sources */,
+				D32E8BCA2483D82C00FD89E3 /* Example3ViewController.swift in Sources */,
+				D32E8BC42483D82C00FD89E3 /* CustomizedPopoverSegue.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				D32E8BCD2483D82C00FD89E3 /* Example4ViewController.swift in Sources */,
+				D32E8BA62483D7F500FD89E3 /* PopoverExampleSwitcher.swift in Sources */,
+				D32E8BCE2483D82C00FD89E3 /* Example4ViewLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
