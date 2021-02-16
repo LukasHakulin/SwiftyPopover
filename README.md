@@ -30,7 +30,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
  
  - iOS 10.0+
  - Swift 5.+
- - Xcode 11.4.1+
+ - Xcode 12.+
 
 ## Installation
 
