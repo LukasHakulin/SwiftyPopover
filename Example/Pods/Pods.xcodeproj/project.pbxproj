@@ -38,8 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		048F03B0CCBFB6733E68113DE15DACCA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		0EB4006CEE2BFC5C1C842B6DAE4E5049 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		048F03B0CCBFB6733E68113DE15DACCA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0EB4006CEE2BFC5C1C842B6DAE4E5049 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		119992566C4FEA67468D4C94DB5C1CBD /* Pods-SwiftyPopover_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyPopover_Tests-dummy.m"; sourceTree = "<group>"; };
 		1D4B5D1CEB69D6FB6E3844821E4F1B00 /* Pods-SwiftyPopover_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyPopover_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2AFA2233671752105C7D44554E90DBB6 /* Pods-SwiftyPopover_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyPopover_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		555EB860ECF4EEFB6B46E72DE34878A2 /* Pods-SwiftyPopover_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyPopover_Example-frameworks.sh"; sourceTree = "<group>"; };
 		55D4E3438DD4C70AE8B9C21D26E7243E /* Pods-SwiftyPopover_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyPopover_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		599DA4B83C962471E5B85C4F11F6746E /* SwiftyPopover-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyPopover-umbrella.h"; sourceTree = "<group>"; };
-		5C31F8290E5E45553C9741EFA5A33F11 /* SwiftyPopover.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftyPopover.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5C31F8290E5E45553C9741EFA5A33F11 /* SwiftyPopover.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftyPopover.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5E42E16766AA471FAD486E7B1B6474A1 /* PopoverContainerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverContainerViewController.swift; path = SwiftyPopover/Classes/PopoverContainerViewController.swift; sourceTree = "<group>"; };
 		5FB94EEBF3C629B4025F4B341D2B84FC /* Pods-SwiftyPopover_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyPopover_Tests-Info.plist"; sourceTree = "<group>"; };
 		678B465D0B6FDD1D432978303F491D4B /* SwiftyPopover-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyPopover-prefix.pch"; sourceTree = "<group>"; };
@@ -60,13 +60,13 @@
 		7006152AA3CE74F10A72BD33449A099A /* Pods-SwiftyPopover_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyPopover_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		934FBA77F497F896B950FF5C8E89243F /* Pods-SwiftyPopover_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyPopover_Tests-umbrella.h"; sourceTree = "<group>"; };
 		992D51428A55144AD1B142C389F21920 /* Pods-SwiftyPopover_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyPopover_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9CB3516960635E6324305F5AB3FC9503 /* Pods_SwiftyPopover_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyPopover_Example.framework; path = "Pods-SwiftyPopover_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CB3516960635E6324305F5AB3FC9503 /* Pods_SwiftyPopover_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyPopover_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A35B3195C992F08ADFE72A9365AC4540 /* Pods-SwiftyPopover_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyPopover_Example.modulemap"; sourceTree = "<group>"; };
 		B0063B7D9E227E8E87F3E73DCB1478F2 /* SwiftyPopover.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyPopover.xcconfig; sourceTree = "<group>"; };
 		BB7FAF8488C62DE9ECC473573ED2BD8A /* Pods-SwiftyPopover_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyPopover_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C3F92EC210F4F063B36111BFDACCC756 /* Pods_SwiftyPopover_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyPopover_Tests.framework; path = "Pods-SwiftyPopover_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C75A1FE9B2195C8F8F8F58C3FE0AEC44 /* SwiftyPopover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyPopover.framework; path = SwiftyPopover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F92EC210F4F063B36111BFDACCC756 /* Pods_SwiftyPopover_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyPopover_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75A1FE9B2195C8F8F8F58C3FE0AEC44 /* SwiftyPopover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyPopover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6131B3A4A3E2EAF84135D5C6E218A4 /* PopoverSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverSegue.swift; path = SwiftyPopover/Classes/PopoverSegue.swift; sourceTree = "<group>"; };
 		D603109D6FBC9B4A16393E3161B301E8 /* Pods-SwiftyPopover_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyPopover_Example-dummy.m"; sourceTree = "<group>"; };
 		F81DB09F379CE9918DD0C5E0F6AFCB05 /* Pods-SwiftyPopover_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyPopover_Tests.modulemap"; sourceTree = "<group>"; };
@@ -317,7 +317,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1230;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -434,6 +434,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -599,6 +600,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -626,8 +628,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
